@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "BrandingSparrow",
+    "slug": "BrandingSparrow",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "BrandingSparrow"
+}
