@@ -13,3 +13,5 @@ Sample app using react native as frontend and express.js and mongoDb as backend.
     "mongodb": "^4.11.0",
     "morgan": "~1.9.1"
  
+# Sample Output
+https://user-images.githubusercontent.com/102892250/198112530-4d8b59a8-4917-4077-a9c8-d45428fd1c7d.mp4
