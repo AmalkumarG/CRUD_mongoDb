@@ -1,5 +1,5 @@
 const backendapi={
-    baseURL:"http://192.168.162.41:3000/api",
+    baseURL:"http://192.168.29.146:3000/api",
     REGISTER:"/register",
     USEREXIST:"/userexist",
     CHANGE:"/change",

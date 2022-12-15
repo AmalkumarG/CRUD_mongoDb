@@ -3,6 +3,22 @@ import Api from "../constants/Api";
 const AuthRequest=axios.create({
     baseURL:Api.backendapi.baseURL
 })
+
+const acnoReg=async()=>{
+    console.log("abvccccccc");
+   
+        let data={
+            acno:12,
+            password:12,
+            username:"abcddd"
+        }
+     let result= await axios.post('http://192.168.29.146:3000/register',data)
+       return result.data
+    
+
+
+}
+
 const register=async(user)=>{
     if(!user.username ||!user.password||!user.email)
         return{
@@ -80,4 +96,4 @@ const deleteuser=async(user)=>{
     }
 
 }
-export default {register,userexist,login,change,deleteuser}
+export default {register,userexist,login,change,deleteuser,acnoReg}

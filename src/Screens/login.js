@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TextInput, TouchableHighlight, View } from 'react-native'
 import React, { useState } from 'react'
-import AuthenticationService from './Service/AuthenticationService'
+import AuthenticationService from '../../Service/AuthenticationService'
 const Login = ({navigation}) => {
     const [username,setUsername]=useState()
     const [password,setPassword]=useState()
